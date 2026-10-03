@@ -5,6 +5,7 @@ const Heatstation = () => import('@/views/heatstation/index.vue')
 const Primarynet = () => import('@/views/primarynet/index.vue')
 const Secondarynet = () => import('@/views/secondarynet/index.vue')
 const Stationpatrol = () => import('@/views/stationpatrol/index.vue')
+const Patrolplan = () => import('@/views/patrolplan/index.vue')
 const Roomtemp = () => import('@/views/roomtemp/index.vue')
 const Hydraulic = () => import('@/views/hydraulic/index.vue')
 const Heatmeter = () => import('@/views/heatmeter/index.vue')
@@ -28,6 +29,7 @@ const router = createRouter({
     { path: '/primarynet', name: 'primarynet', component: Primarynet },
     { path: '/secondarynet', name: 'secondarynet', component: Secondarynet },
     { path: '/stationpatrol', name: 'stationpatrol', component: Stationpatrol },
+    { path: '/patrolplan', name: 'patrolplan', component: Patrolplan },
     { path: '/roomtemp', name: 'roomtemp', component: Roomtemp },
     { path: '/hydraulic', name: 'hydraulic', component: Hydraulic },
     { path: '/heatmeter', name: 'heatmeter', component: Heatmeter },
